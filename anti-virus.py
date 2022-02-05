@@ -10,9 +10,9 @@ def confuse_insert(replace_string,i,confusing_characters=""):
     while True:
         rand_len = random.randint(1,4)
         if len(replace_string) <= rand_len:
-            encoded_replace_string += confusing_characters+replace_string[:rand_len]
+            encoded_replace_string += replace_string[:rand_len]+confusing_characters
             break
-        encoded_replace_string += confusing_characters+replace_string[:rand_len]
+        encoded_replace_string += replace_string[:rand_len]+confusing_characters
         replace_string = replace_string[rand_len:]
     return confusing_characters,encoded_replace_string
 
