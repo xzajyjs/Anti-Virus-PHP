@@ -1,2 +1,10 @@
-# Anti-Virus-PHP-
-【随机动态生成】php免杀webshell
+# Anti-Virus-PHP
+```python3
+python3 anti-virus.py
+```
+- [x] Randomly generate connection key
+- [x] Static Anti-Virus
+
+![](pic/run.png)
+![](pic/conn.png)
+![](pic/totalvirus.png)
